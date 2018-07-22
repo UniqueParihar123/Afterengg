@@ -1,0 +1,167 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container2"
+    android:background="@drawable/homeback"
+    tools:context="com.example.anupamparihar.afterengg.homefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+<!-- row 1-->
+        <!-- column 1-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homeback">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignTop="@+id/cv2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:src="@drawable/course" />
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_below="@+id/logout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:src="@drawable/explore" />
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/cv4"
+        android:layout_alignLeft="@+id/cv4"
+        android:layout_alignStart="@+id/cv4">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/about"
+            android:layout_gravity="center"/>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/cv1"
+        android:layout_alignLeft="@+id/cv1"
+        android:layout_alignStart="@+id/cv1">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+
+
+            android:layout_gravity="center"
+            android:src="@drawable/news" />
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_alignTop="@+id/cv4"
+        android:layout_alignLeft="@+id/cv2"
+        android:layout_alignStart="@+id/cv2">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+
+
+            android:src="@drawable/videos"
+            android:layout_gravity="center"/>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/cv5"
+        android:layout_alignStart="@+id/cv5">
+        <!-- aise hi kch value dedo abhi baad me image kie hisaab se denge-->
+        <ImageView
+            android:id="@+id/im6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+
+
+            android:src="@drawable/feedback"
+            android:layout_gravity="center"/>
+
+
+    </android.support.v7.widget.CardView>
+
+<Button
+    android:layout_width="120dp"
+    android:layout_height="30dp"
+    android:background="@drawable/homeback"
+    android:text=" LOGOUT"
+    android:id="@+id/logout"
+    android:textColor="@color/btechbranchtext"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

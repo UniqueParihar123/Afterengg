@@ -1,0 +1,155 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homeback"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.anupamparihar.afterengg.csegatetopics">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_above="@+id/bt2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text="Computer Networks        >" />
+
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt3"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text="Compiler Design      >" />
+
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt4"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text="Database Management Systemn     >" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Theory Of Computation   >" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Algorithm  >" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt5"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Operating Systems  >" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt6"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Digital Logic   >" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt7"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Data Structures   >" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/bt8"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/btechbranchtext"
+            android:background="@drawable/logedittext"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp"
+            android:text=" Computer Architecture   >" />
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/btechbranchtext"
+
+                android:layout_gravity="center"
+                android:text="    IMPORTANT TOPICS    "
+
+                android:textSize="34sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="42dp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/homeback"
+    android:layout_height="match_parent"
+    tools:context="com.example.anupamparihar.afterengg.Register">
+
+    <TextView
+        android:id="@+id/tvr1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif"
+        android:text="       Username"
+        android:textColor="@color/btechbranchtext"
+        android:textSize="20sp"
+        android:layout_above="@+id/ret1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:id="@+id/tvr2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif"
+        android:text="       Password"
+        android:textColor="@color/btechbranchtext"
+
+        android:textSize="20sp"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/ret2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logedittext"
+        android:id="@+id/ret1"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/btechbranchtext"
+        android:layout_above="@+id/tvr2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logedittext"
+        android:padding="10dp"
+        android:id="@+id/ret2"
+        android:textColor="@color/btechbranchtext"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/rbtn"
+        android:layout_alignLeft="@+id/ret1"
+        android:layout_alignStart="@+id/ret1" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@drawable/logedittext"
+        android:textColor="@color/btechbranchtext"
+
+        android:text="Register"
+        android:layout_marginBottom="75dp"
+        android:id="@+id/rbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/homeback"
+        android:src="@drawable/appicon"
+        android:id="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

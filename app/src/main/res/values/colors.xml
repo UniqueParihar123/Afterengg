@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b98e4</color>
+    <color name="colorPrimaryDark">#f7752a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cardview">#41eff5</color>
+    <color name="btechbranchtext">#FFFFFF</color>
+    <color name="csegatetext">#ec0d0d</color>
+    <color name="csefragback">#e190ec</color>
+    <color name="blacktext">#000</color>
+    <color name="cardvieborder">#0c2dbe</color>
+</resources>
